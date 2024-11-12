@@ -1,0 +1,35 @@
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  padding-top: 138.4px;
+}
+
+/* 1 */
+
+.button_div {
+  background-color: pink;
+  height: 200px;
+  width: 300px;
+  padding: 70px 80px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.button1 {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: pink;
+  box-shadow: 3px 3px 10px 0px black, 3px 3px 10px -2px white inset;
+  color: white;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.button1:active {
+  box-shadow: none;
+  box-shadow: 3px 3px 10px -2px white, 3px 3px 10px 0px black inset;
+  text-shadow: 1px 1px 3px black;
+}
+
+/* 2 */
